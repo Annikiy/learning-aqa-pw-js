@@ -1,0 +1,17 @@
+{
+  "name": "otus-aqa-pw",
+  "version": "1.0.0",
+  "description": "in progress",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ann S",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@jest/globals": "^29.7.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
