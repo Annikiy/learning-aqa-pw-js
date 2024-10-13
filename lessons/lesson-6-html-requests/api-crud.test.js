@@ -1,5 +1,5 @@
 import {it, describe, expect} from '@jest/globals';
-import RandomNumber from '../core/random-number';
+import RandomNumber from '../../core/random-number';
 
 
 describe('CRUD API tests', () => {
