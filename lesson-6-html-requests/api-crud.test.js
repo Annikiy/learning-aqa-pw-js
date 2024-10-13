@@ -4,7 +4,7 @@ import RandomNumber from '../core/random-number';
 
 describe('CRUD API tests', () => {
     const rnd = RandomNumber.get();
-    const endpoint = 'https://petstore.swagger.io/v2/pet';
+    const endpoint = `${process.env.PET_STORE_API}/pet`;
     const petOne = {
         id: rnd,
         category: {
